@@ -82,3 +82,31 @@ Cada usuário pertence a uma empresa (company_id).
 # 🗄️ Banco de Dados
 
 ### Criar banco
+
+```sql
+CREATE DATABASE saascore;
+```
+### Tabela companies
+
+```sql
+CREATE TABLE companies (
+ id SERIAL PRIMARY KEY,
+ name VARCHAR(100)
+);
+```
+### Tabela users
+```sql
+CREATE TABLE users (
+ id SERIAL PRIMARY KEY,
+ name VARCHAR(100),
+ email VARCHAR(100) UNIQUE,
+ password TEXT,
+ role VARCHAR(20),
+ company_id INT REFERENCES companies(id)
+);
+```
+### Empresa inicial
+```sql
+INSERT INTO companies(name)
+VALUES ('Minha Empresa');
+```
