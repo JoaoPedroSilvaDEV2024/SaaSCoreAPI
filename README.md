@@ -151,3 +151,23 @@ Body:
   "password": "123456"
 }
 ```
+Login
+```bash
+POST /auth/login
+```
+Body:
+```bash
+{
+  "email": "joao@gmail.com",
+  "password": "123456"
+}
+```
+Resposta:
+```bash
+{
+  "token": "JWT_TOKEN"
+}
+```
+---
+
+# 👥 Usuários
