@@ -110,3 +110,10 @@ CREATE TABLE users (
 INSERT INTO companies(name)
 VALUES ('Minha Empresa');
 ```
+---
+
+# ⚙️ Instalação
+
+### Clonar projeto
+
+
