@@ -115,5 +115,39 @@ VALUES ('Minha Empresa');
 # ⚙️ Instalação
 
 ### Clonar projeto
+```bash
+git clone URL_DO_REPOSITORIO
+cd saas-core-api
+```
+### Instalar dependências
+```bash
+npm install
+```
+### Rodar projeto
+```bash
+npm run dev
+```
 
-
+### 🌐 Servidor
+```bash
+http://localhost:3000
+```
+### 📘 Swagger
+Documentação interativa:
+```bash
+http://localhost:3000/docs
+```
+#🔥 Rotas da API
+### Auth
+Cadastro:
+```bash
+POST /auth/register
+```
+Body:
+```bash
+{
+  "name": "Joao",
+  "email": "joao@gmail.com",
+  "password": "123456"
+}
+```
