@@ -76,3 +76,9 @@ Perfis disponíveis:
 
 ### Multi-Tenant
 Cada usuário pertence a uma empresa (company_id).
+
+---
+
+# 🗄️ Banco de Dados
+
+### Criar banco
