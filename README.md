@@ -137,7 +137,7 @@ Documentação interativa:
 ```bash
 http://localhost:3000/docs
 ```
-#🔥 Rotas da API
+# 🔥 Rotas da API
 ### Auth
 Cadastro:
 ```bash
