@@ -57,4 +57,7 @@ src/
 ---
 
 # 🔐 Funcionalidades
-## Autenticação
+Autenticação:
+-Cadastro de usuário
+-Login com JWT
+-Senha criptografada com bcrypt
