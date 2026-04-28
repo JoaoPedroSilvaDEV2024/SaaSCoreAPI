@@ -67,3 +67,12 @@ Perfis disponíveis:
 - admin
 - manager
 - user
+
+### Usuários
+- Criar usuário
+- Listar usuários
+- Atualizar usuário
+- Deletar usuário
+
+### Multi-Tenant
+Cada usuário pertence a uma empresa (company_id).
