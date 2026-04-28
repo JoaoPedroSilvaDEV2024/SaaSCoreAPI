@@ -62,5 +62,8 @@ src/
 - Login com JWT
 - Senha criptografada com bcrypt
 
-Controle de acesso:
+### Controle de acesso
 Perfis disponíveis:
+- admin
+- manager
+- user
