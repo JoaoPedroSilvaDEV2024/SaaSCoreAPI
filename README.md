@@ -171,3 +171,59 @@ Resposta:
 ---
 
 # 👥 Usuários
+
+### Listar usuários
+```bash
+GET /users
+```
+Header:
+```bash
+Authorization: Bearer TOKEN
+```
+### Criar usuário
+```bash
+POST /users
+```
+Body:
+```bash
+{
+  "name": "Maria",
+  "email": "maria@gmail.com",
+  "password": "123456",
+  "role": "manager"
+}
+```
+### Atualizar usuário
+```bash
+PUT /users/:id
+```
+### Deletar usuário
+```bash
+DELETE /users/:id
+```
+---
+
+# 🔒 Segurança
+- Senhas criptografadas
+- JWT Authentication
+- Rotas protegidas
+- Controle por roles
+- Isolamento por empresa
+---
+
+# 💼 Objetivo do Projeto
+Demonstrar capacidade de desenvolver APIs modernas e escaláveis para empresas SaaS reais.
+---
+
+# 🚀 Próximos Upgrades
+- Refresh Token
+- Logs de auditoria
+- Rate Limit
+- Testes automatizados
+- Docker
+- CI/CD
+- Deploy Cloud
+---
+
+# 👨‍💻 Autor
+Desenvolvido por João Pedro.
