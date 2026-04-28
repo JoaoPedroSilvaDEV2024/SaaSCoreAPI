@@ -53,3 +53,8 @@ src/
  │   users.ts
  │
  └ server.ts
+```
+---
+
+# 🔐 Funcionalidades
+## Autenticação
